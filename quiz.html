@@ -7,10 +7,23 @@
     <title>Quiz</title>
     <link rel="stylesheet" href="quiz.css">
     <script src="quiz.js"></script>
+    <script src="https://kit.fontawesome.com/0add02f640.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="heading">
+    <div class="inside">
+        <p id="black"> <i class="fas fa-crown"></i>Let's Quiz <i class="fas fa-crown"></i></p>
+       
+        
+    </div>
+    
+</div>
+   
+    
     <form name="quiz" id="quiz">
-        <div>
+<div class="container1"> 
+       
+        <div class="child1">
             <p>1. Which is the biggest country in the world ?</p>
             <p><input type="radio" name="question1" value="Canada">A. Canada</p>
             <p><input type="radio" name="question1" value="India">B. India</p>
@@ -19,7 +32,7 @@
 
         </div>
 
-        <div>
+        <div class="child1">
             <p>2. Who is the 1st citizen of India ?</p>
             <p><input type="radio" name="question2" value="Prime-Minister">A. Prime-Minister</p>
             <p><input type="radio" name="question2" value="Vice-President">B. Vice-President</p>
@@ -27,28 +40,36 @@
             <p><input type="radio" name="question2" value="President">D. President</p>
 
         </div>
+    </div>
+<div class="container2">
+    <div class="child2">
+        <p>3. Which is the highest mountain of India ?</p>
+        <p><input type="radio" name="question3" value="Kalsubai">A. Kalsubai</p>
+        <p><input type="radio" name="question3" value="Kangchenjanga">B. Kangchenjanga</p>
+        <p><input type="radio" name="question3" value="Mount-Everest">C. Mount-Everest</p>
+        <p><input type="radio" name="question3" value="Karakoram">D. Karakoram</p>
 
-        <div>
-            <p>3. Which is the highest mountain of India ?</p>
-            <p><input type="radio" name="question3" value="Kalsubai">A. Kalsubai</p>
-            <p><input type="radio" name="question3" value="Kangchenjanga">B. Kangchenjanga</p>
-            <p><input type="radio" name="question3" value="Mount-Everest">C. Mount-Everest</p>
-            <p><input type="radio" name="question3" value="Karakoram">D. Karakoram</p>
+    </div>
 
-        </div>
+    <div class="child2">
+        <p>4.Which is the longest river of India ?</p>
+        <p><input type="radio" name="question4" value="Beas">A. Beas</p>
+        <p><input type="radio" name="question4" value="Ganga">B. Ganga</p>
+        <p><input type="radio" name="question4" value="Brahamputra">C. Brahamputra</p>
+        <p><input type="radio" name="question4" value="Godavari">D. Godavari</p>
 
-        <div>
-            <p>4.Which is the longest river of India ?</p>
-            <p><input type="radio" name="question4" value="Beas">A. Beas</p>
-            <p><input type="radio" name="question4" value="Ganga">B. Ganga</p>
-            <p><input type="radio" name="question4" value="Brahamputra">C. Brahamputra</p>
-            <p><input type="radio" name="question4" value="Godavari">D. Godavari</p>
-
-        </div>
-
+    </div>
+</div>
+      <div id="buttons">
         <input type="button" name="" value="Submit" id="button" onclick="check()">
-
+      </div> 
+        
+    
     </form>
-    <p id="result"></p>
-</body>
+    <div class="final">
+
+        <p id="result"></p>
+    </body>
+    </div>
+    
 </html>

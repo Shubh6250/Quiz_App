@@ -20,7 +20,7 @@ function check(){
         c++
     }
     quiz.style.display ="none";
-    if (c<=3){
+    if (c<=2){
 result.textContent=`Your result is ${c} is not so good please try to work on yourself.`
     } else {
 result.textContent=`Your result is ${c}. It is awesome. Keep it up.`
